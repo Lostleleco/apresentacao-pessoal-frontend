@@ -1,3 +1,13 @@
+![image](https://github.com/user-attachments/assets/d246f438-31c2-402f-bb9f-4d5d6d7cc354)
+
+
+
+
+Link do Deploy: https://apresentacao-pessoal-frontend-roan.vercel.app/
+
+
+
+
 # Desafio de Apresentação Pessoal - Processo Seletivo Frontend Fusion - [cargo voluntário]
 
 ## Sobre o Desafio
