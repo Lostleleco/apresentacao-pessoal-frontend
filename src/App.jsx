@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import Perfil from './assets/Perfil.jpg';
 import portifolio from './assets/port.png';
 import disney from './assets/disney.png';
@@ -80,6 +81,18 @@ export default function Example() {
               <div className="mt-6 flex max-w-md gap-x-4">
                 <img src={Perfil} alt="Perfil de Alex Soares" className="rounded-full w-40 h-40 object-cover" />
               </div>
+              <div className="mt-4 flex space-x-4">
+                <a href="https://github.com/Lostleleco" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+                  <FaGithub size={32} />
+                </a>
+                <a href="https://www.linkedin.com/in/alex-soares-de-oliveira-669885308/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+                  <FaLinkedin size={32} />
+                </a>
+                <a href="https://wa.me/5533988997674" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
+                  <FaWhatsapp size={32} />
+                </a>
+              </div>
+              <p className="mt-4 text-gray-400">Minhas stacks: HTML, CSS, React, TypeScript, Vue.js, Bootstrap, JavaScript, jQuery, Sass, Less, Gulp, Grunt e Cypress.</p>
             </div>
             <div>
               <p className="text-white">
@@ -112,7 +125,7 @@ export default function Example() {
             <img src={mx} alt="Projeto 2" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-800">Mx Store</h3>
-              <p className="mt-2 text-gray-600">Essa pagina foi uma criação de uma loja para exibição de equipamentos esportivos</p>
+              <p className="mt-2 text-gray-600">Essa página foi criada para exibir equipamentos esportivos.</p>
               <a href="https://mx-store.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <button className="mt-4 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition">Ver Mais</button>
               </a>
@@ -124,9 +137,7 @@ export default function Example() {
             <img src={disney} alt="Projeto 3" className="w-full h-48 object-cover" />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-gray-800">Clone Disney+</h3>
-              <p className="mt-2 text-gray-600">Projeto desenvolvido para estudos e praticas de desing totalmente responsivo
-
-              </p>
+              <p className="mt-2 text-gray-600">Projeto desenvolvido para estudos de design responsivo.</p>
               <a href="https://alex-clone-disneyplus.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <button className="mt-4 w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600 transition">Ver Mais</button>
               </a>
@@ -135,12 +146,9 @@ export default function Example() {
         </div>
       </div>
 
-
       <footer className="bg-gray-900 py-8">
         <div className="max-w-7xl mx-auto px-4">
-          <p className="text-center text-gray-400 text-sm">
-            © 2024 Alex Soares. Todos os direitos reservados.
-          </p>
+          <p className="text-center text-gray-400 text-sm">© 2024 Alex Soares. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
